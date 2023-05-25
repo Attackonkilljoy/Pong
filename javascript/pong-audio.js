@@ -43,7 +43,7 @@ export var soundArray = []; //list of sounds loaded
 
 //Here is where all the Sound File Players Start
 
-export var wallSound = new soundFile("wall.mp3"); //load sound
+export var wallSound = new soundFile("boing-2-44164.mp3"); //load sound
 soundArray.push(wallSound); //add sound to list of sounds
 
 export var paddleSound = new soundFile("paddle.mp3");
@@ -52,7 +52,7 @@ soundArray.push(paddleSound);
 export var scoreSound = new soundFile("silence.mp3");
 soundArray.push(scoreSound);
 
-export var ambientSound = new soundFile("sounds/MackaParkHydrophonefountain.mp3");
+export var ambientSound = new soundFile("MackaParkHydrophonefountain.mp3");
 soundArray.push(ambientSound);
 ambientSound.player.loop = true; //turn on looping
 ambientSound.player.volume.value = -20; //turn down volume
