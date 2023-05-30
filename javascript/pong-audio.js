@@ -46,7 +46,7 @@ export var soundArray = []; //list of sounds loaded
 export var wallSound = new soundFile("boing-2-44164.mp3"); //load sound
 soundArray.push(wallSound); //add sound to list of sounds
 
-export var paddleSound = new soundFile("paddle.mp3");
+export var paddleSound = new soundFile("metal-ping-192khz-2-105051.mp3");
 soundArray.push(paddleSound);
 
 export var scoreSound = new soundFile("ding-126626.mp3");
